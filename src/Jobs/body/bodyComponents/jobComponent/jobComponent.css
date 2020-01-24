@@ -1,0 +1,33 @@
+
+.job-post-line{
+    height: 5px;
+    box-shadow: inset 0 9px 9px -3px #70707033;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    width: 89%;
+
+}
+
+.job-company-logo{
+    width: 70px;
+    border-radius: 35%;
+    -webkit-box-shadow: 0px 6px 11px 1px rgba(0,0,0,0.24);
+    -moz-box-shadow: 0px 6px 11px 1px rgba(0,0,0,0.24);
+    box-shadow: 0px 6px 11px 1px rgba(0,0,0,0.24);
+}
+.job-post-title{
+    font-weight: bolder;
+    font-size: 20px;
+}
+.job-post-company{
+    font-weight: bold;
+    font-size: 15px;
+    color: gray;
+}
+.job-post-location{
+    font-weight: bold;
+    font-size: 15px;
+}

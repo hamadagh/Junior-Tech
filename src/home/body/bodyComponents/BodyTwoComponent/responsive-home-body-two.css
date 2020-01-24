@@ -1,0 +1,57 @@
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+    .title {
+        padding-top: 10px;
+    }
+
+    .photo {
+        padding-top: 5px;
+        width: 65%;
+        height: 200px;
+    }
+
+    .butt-search {
+        display: flex;
+        justify-content: center;
+        display: none;
+    }
+    .body-two-text{
+        text-align: center;
+    }
+
+    .butt-none{
+        margin: 40px;
+       
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .photo {
+        padding-top: 5px;
+        width: 65%;
+        height: 260px;
+        margin-top: 40px;
+    }
+
+    .butt-search {
+        display: flex;
+        justify-content: center;
+        display: none;
+    }
+
+        .butt-none{
+            margin: 79px;
+        }
+
+        .body-two-text{
+            text-align: center;
+        }
+    
+}
+
+
+
+@media only screen and (min-width: 1023px) {
+    .butt-none{
+        display: none;
+    }
+}

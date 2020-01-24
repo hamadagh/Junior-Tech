@@ -1,0 +1,7 @@
+.home-page {
+    display: flex;
+    flex-direction: column;
+    background-color: #f7f9ff;
+    height: 580px;
+
+}

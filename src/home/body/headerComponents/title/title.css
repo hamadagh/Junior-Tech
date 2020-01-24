@@ -1,0 +1,104 @@
+.first-header {
+    margin-top: 60px;
+    color: #2b3966;
+    font-family: roboto;
+    font-weight: bolder;
+
+    letter-spacing: 1.5px;
+    text-shadow: rgba(0, 0, 0, 0.103) -6px 1px;
+
+}
+
+.first-title {
+    font-size: 32px;
+}
+
+.second-header {
+    color: #2b3966;
+    font-family: roboto;
+    font-weight: bolder;
+
+    letter-spacing: 1.5px;
+    text-shadow: rgba(0, 0, 0, 0.053) -6px 1px;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.Tech {
+
+    background-color: #496f5d;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: rgba(245, 245, 245, 0.322) 3px 5px 1px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 44px;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+    .first-header {
+        font-family: 'Oswald', sans-serif;
+        font-weight: bolder;
+        margin-top: 20px;
+        letter-spacing: 1.5px;
+        text-shadow: rgba(0, 0, 0, 0.103) -6px 1px;
+
+    }
+
+    .first-title {
+        font-size: 23px;
+    }
+
+    .second-header {
+        font-family: 'Oswald', sans-serif;
+        font-weight: bolder;
+        margin-bottom: 5px;
+        letter-spacing: 1.5px;
+        text-shadow: rgba(0, 0, 0, 0.103) -6px 1px;
+        font-size: 14px;
+    }
+
+    .Tech {
+        font-size: 44px;
+
+
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .first-header {
+        font-size: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .second-header {
+        font-size: 24px;
+    }
+
+    .Tech {
+        font-size: 54px;
+    }
+
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+    .first-header {
+        font-size: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 1281px) and (max-width: 1680px) {
+    .first-header {
+        font-size: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
