@@ -18,7 +18,7 @@ const useStyles = makeStyles(theme => ({
     root: {
         '& > *': {
             margin: theme.spacing(2),
-            width: 250,
+
 
 
         },
@@ -46,10 +46,11 @@ export default function InputGroup() {
         <Box display="flex" alignItems="center" mx="auto" className="input-form-group">
             <form className={classes.root} id="home-input-form" noValidate autoComplete="off" my="auto" >
 
-                <TextField id="outlined-basic" label="Keyword" variant="outlined" />
+                <TextField id="outlined-basic" label="Keyword" labelWidth="" variant="outlined" />
                 <TextField id="outlined-basic" label="Location" variant="outlined" />
 
             </form>
+
             <div >
                 <ColorButton variant="contained" color="primary" className={classes.margin}>
                     Search

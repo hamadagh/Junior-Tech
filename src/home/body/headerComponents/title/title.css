@@ -22,6 +22,7 @@
     text-shadow: rgba(0, 0, 0, 0.053) -6px 1px;
     font-size: 17px;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .Tech {
@@ -34,6 +35,11 @@
     text-shadow: rgba(245, 245, 245, 0.322) 3px 5px 1px;
     font-family: 'Courier New', Courier, monospace;
     font-size: 44px;
+    margin-left: 5px;
+    margin-right: 5px;
+    position: relative;
+    bottom: 8px;
+
 }
 
 @media only screen and (min-width: 200px) and (max-width: 767px) {
@@ -43,6 +49,8 @@
         margin-top: 20px;
         letter-spacing: 1.5px;
         text-shadow: rgba(0, 0, 0, 0.103) -6px 1px;
+        text-align: center;
+
 
     }
 
@@ -60,7 +68,7 @@
     }
 
     .Tech {
-        font-size: 44px;
+        bottom: 0px;
 
 
     }

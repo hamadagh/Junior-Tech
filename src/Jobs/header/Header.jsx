@@ -7,7 +7,8 @@ import { green } from '@material-ui/core/colors';
 import { withStyles } from '@material-ui/core/styles';
 import Box from '@material-ui/core/Box';
 import InputAdornment from '@material-ui/core/InputAdornment';
-import LocationOnOutlinedIcon from '@material-ui/icons/LocationOnOutlined'; import SearchIcon from '@material-ui/icons/Search';
+import LocationOnOutlinedIcon from '@material-ui/icons/LocationOnOutlined';
+import SearchIcon from '@material-ui/icons/Search';
 import './header.css';
 
 
@@ -16,7 +17,7 @@ const useStyles = makeStyles(theme => ({
     root: {
         '& > *': {
             margin: theme.spacing(2),
-            width: 300,
+
             justifyContent: "center",
             height: 38,
 
