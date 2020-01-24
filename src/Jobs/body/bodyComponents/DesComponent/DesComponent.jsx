@@ -87,7 +87,7 @@ class DesComponent extends Component {
         }
         else {
             return (
-                <div className='mainDes mt-4'>
+                <div className='mainDes'>
                     <div className='MainSub'>
 
                         <div className='SubHeader container-fluid d-flex mt-5'>

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import Header from './header/Header';
 import Body from './body/Body';
 import Filter from './filter/Filter';
@@ -50,9 +50,9 @@ const Jobs = () => {
         getJobsData()
     }
 
-    useEffect(() => {
-        getJobsData()
-    }, [])
+    // useEffect(() => {
+    //     getJobsData()
+    // }, [])
 
 
 
