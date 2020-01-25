@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Header from './header/Header';
 import Body from './body/Body';
 import Filter from './filter/Filter';
@@ -6,7 +6,7 @@ import Filter from './filter/Filter';
 const APP_ID = process.env.REACT_APP_ADZUNA_APP_ID1;
 const API_KEY = process.env.REACT_APP_ADZUNA_API_KEY1;
 const URL = `http://api.adzuna.com:80/v1/api/jobs/de/search/`;
-
+console.log(APP_ID)
 const Jobs = () => {
     // Jobs data
     const [data, setData] = useState({ results: [] })
@@ -34,7 +34,6 @@ const Jobs = () => {
 
                 setLoading(false)
                 setData(data)
-
             })
             .catch((e) => {
                 setLoading(false)
@@ -50,9 +49,9 @@ const Jobs = () => {
         getJobsData()
     }
 
-    // useEffect(() => {
-    //     getJobsData()
-    // }, [])
+    useEffect(() => {
+        getJobsData()
+    }, [])
 
 
 

@@ -5,8 +5,10 @@ import './footer.css';
 import { Link as RouterLink } from 'react-router-dom';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
+import InstagramIcon from '@material-ui/icons/Instagram';
+import FacebookIcon from '@material-ui/icons/Facebook';
+
 
 
 
@@ -35,12 +37,9 @@ export default function Footer() {
 
             <AppBar position="static" className={classes.backgroundColor}>
                 <Toolbar>
-
-                    <Typography variant="h6" className={classes.title}>
-                        <RouterLink to="/"> <Button color="inherit"></Button></RouterLink>
-                    </Typography>
-                    <RouterLink to="/jobs"> <Button color="inherit"></Button></RouterLink>
-                    <RouterLink to="/about"> <Button color="inherit"></Button></RouterLink>
+                    <RouterLink to="/" className="footerLink"><Button color="inherit"><FacebookIcon /></Button></RouterLink>
+                    <RouterLink to="/jobs" className="footerLink"><Button color="inherit"><InstagramIcon /></Button></RouterLink>
+                    <RouterLink to="/about" className="footerLink"><Button color="inherit"></Button></RouterLink>
 
                 </Toolbar>
             </AppBar>

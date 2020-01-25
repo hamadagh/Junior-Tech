@@ -7,7 +7,7 @@ class JobComponent extends Component {
 
   render() {
     let jobs = this.props.jobs
-
+    console.log(jobs)
     return (
       <div>
         {

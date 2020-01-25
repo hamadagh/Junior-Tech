@@ -8,8 +8,7 @@ import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
-
-
+import FavoriteIcon from '@material-ui/icons/Favorite';
 
 const useStyles = makeStyles(theme => ({
     root: {
@@ -21,6 +20,7 @@ const useStyles = makeStyles(theme => ({
     },
     title: {
         flexGrow: 1,
+        textDecoration: 'none',
 
     },
     backgroundColor: {
@@ -39,14 +39,12 @@ export default function Nav() {
 
             <AppBar position="static" className={classes.backgroundColor}>
                 <Toolbar>
-                    <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
-                        <MenuIcon />
-                    </IconButton>
+
                     <Typography variant="h6" className={classes.title}>
-                        <RouterLink to="/"> <Button color="inherit"><span className="navLink">Home</span></Button></RouterLink>
+                        <RouterLink to="/" className="navLink"><Button color="inherit"><span className="navLink">Home</span></Button></RouterLink>
                     </Typography>
-                    <RouterLink to="/jobs"> <Button color="inherit"><span className="navLink">Jobs</span></Button></RouterLink>
-                    <RouterLink to="/about"> <Button color="inherit"><span className="navLink">About</span></Button></RouterLink>
+                    <RouterLink to="/jobs" className="navLink"> <Button color="inherit"><span className="navLink">Jobs</span></Button></RouterLink>
+                    <RouterLink to="/about" className="navLink navIcon"> <Button color="inherit"><span className="navLink"><FavoriteIcon /></span></Button></RouterLink>
 
                 </Toolbar>
             </AppBar>
