@@ -88,25 +88,16 @@ class DesComponent extends Component {
         else {
             return (
                 <div className='mainDes'>
-                    <div className='MainSub'>
+                    <div className='main-sub'>
 
-                        <div className='SubHeader container-fluid d-flex mt-5'>
-
-                            <div className='container d-flex mt-3 ml-3'>
-                                <div className='logo'><ApartmentOutlinedIcon style={{ fontSize: 108 }} color="primary" /></div>
-                                <div className='companyName'>
-                                    <h5 className="job-des-title" dangerouslySetInnerHTML={{ __html: jobDes.title }}></h5>
-                                    <span className='company-name'>{jobDes.company.display_name}</span><br></br>
-                                    <span className='location'>{jobDes.location.display_name}</span>
-                                </div>
-
-
-
-                            </div>
-                            <div className='apply-button'><Button href={jobDes.redirect_url} target="_blank" variant="outlined" color="primary">Go to Job</Button></div>
+                        <div className='logo'><ApartmentOutlinedIcon style={{ fontSize: 108 }} color="primary" /></div>
+                        <div className='companyName'>
+                            <h5 className="job-des-title" dangerouslySetInnerHTML={{ __html: jobDes.title }}></h5>
+                            <span className='company-name'>{jobDes.company.display_name}</span><br></br>
+                            <span className='location'>{jobDes.location.display_name}</span>
                         </div>
 
-
+                        <div className='apply-button'><Button href={jobDes.redirect_url} target="_blank" variant="outlined" color="primary">Go to Job</Button></div>
 
                     </div>
                     <div className="job-description" dangerouslySetInnerHTML={{ __html: jobDes.description }}>

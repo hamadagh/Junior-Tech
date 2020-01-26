@@ -13,3 +13,13 @@
 .job-post-location {
     font-size: 13px;
 }
+
+.job-post-component {
+    display: flex;
+}
+
+.job-post-left {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}

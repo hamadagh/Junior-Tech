@@ -4,7 +4,7 @@
 
 .jobs-container {
     width: 40%;
-    height: 478px;
+
     overflow-y: scroll;
 }
 
@@ -36,4 +36,37 @@
     display: flex;
     justify-content: center;
     margin-top: 200px;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 524px) {
+    .jobs-body-container {
+        height: 500px;
+
+
+    }
+
+}
+
+@media only screen and (min-width: 525px) and (max-width: 767px) {
+    .jobs-body-container {
+        height: 500px;
+    }
+
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1280px) {
+    .jobs-body-container {
+        height: 700px;
+    }
+
+
+}
+
+@media only screen and (min-width: 1280px) {
+    .jobs-body-container {
+        height: 770px;
+    }
+
+
 }
