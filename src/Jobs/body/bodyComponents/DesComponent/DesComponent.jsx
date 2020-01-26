@@ -6,7 +6,7 @@ import ApartmentOutlinedIcon from '@material-ui/icons/ApartmentOutlined';
 
 const APP_ID = process.env.REACT_APP_ADZUNA_APP_ID1;
 const API_KEY = process.env.REACT_APP_ADZUNA_API_KEY1;
-const URL = `http://api.adzuna.com:80/v1/api/jobs/de/search/`;
+const URL = `https://api.adzuna.com/v1/api/jobs/de/search/`;
 
 class DesComponent extends Component {
     constructor(props) {
